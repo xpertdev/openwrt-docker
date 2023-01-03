@@ -1,5 +1,3 @@
-#ARG VERSION=x86-64
-
 FROM docker.io/openwrtorg/rootfs
 
 RUN mkdir -p /var/lock \
