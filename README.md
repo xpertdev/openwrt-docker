@@ -2,7 +2,7 @@
 
 [![ci](https://github.com/xpertdev/openwrt-docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/xpertdev/openwrt-docker/actions/workflows/docker-publish.yml)
 
-This is a docker container for the [OpenWRT](https://openwrt.org/). Based of [openwrtorg/openwrt-rootfs](https://hub.docker.com/r/openwrtorg/openwrt-rootfs)
+This is a docker container for the [OpenWRT](https://openwrt.org/). Based of [openwrtorg/rootfs](https://hub.docker.com/r/openwrtorg/rootfs)
 
 To build, execute the following command:
 ```
