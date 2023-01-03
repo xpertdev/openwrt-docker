@@ -1,4 +1,6 @@
-FROM docker.io/openwrtorg/rootfs
+ARG VERSION=x86-64
+
+FROM docker.io/openwrtorg/rootfs:$VERSION
 
 RUN mkdir -p /var/lock \
   && mkdir -p /var/run \
