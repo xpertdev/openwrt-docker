@@ -1,4 +1,4 @@
-FROM --platform=${TARGETPLATFORM} docker.io/openwrtorg/rootfs
+FROM docker.io/openwrtorg/rootfs
 
 RUN mkdir -p /var/lock \
   && mkdir -p /var/run \
